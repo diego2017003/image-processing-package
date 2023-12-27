@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "image-processing"
+version = "0.1.0"
+description = ""
+authors = ["diego medeiros <diego25rn@gmail.com>"]
+readme = "README.md"
+packages = [{include = "image_processing"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.8.1.78"
+matplotlib = "^3.8.2"
+numpy = "^1.26.2"
+pandas = "^2.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
