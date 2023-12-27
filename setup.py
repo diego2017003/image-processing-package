@@ -14,7 +14,7 @@ setup(
     description="package to process images with opencv",
     long_description=page_description,
     long_description_content_type="package to process images with opencv and extract rois with pdi processing",
-    url="my_github_repository_project_link"
+    url="https://github.com/diego2017003/image-processing-package"
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.11',)
